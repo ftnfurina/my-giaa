@@ -1,0 +1,410 @@
+# Visual Studio Code 安装插件 `redhat.vscode-yaml` 即可验证、提示当前文件是否符合要求。
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ftnfurina/giaa/v0.13.0/schema/coordinate.schema.json
+
+resolution:
+  height: 1080
+  width: 1920
+description: 适配 16:9 屏幕的坐标信息, 坐标基于 1920x1080 像素的屏幕计算得出。
+data:
+  artifact_page:
+    backpack_name:
+      lt:
+        x: 130
+        y: 20
+      rb:
+        x: 235
+        y: 73
+    small_card_container_empty:
+      lt:
+        x: 859
+        y: 555
+      rb:
+        x: 1071
+        y: 614
+
+    filter:
+      filter_button:
+        x: 168
+        y: 1015
+      reset_button:
+        x: 159
+        y: 1017
+      confirm_button:
+        x: 454
+        y: 1017
+      sets_button:
+        x: 312
+        y: 202
+      sets_close_button:
+        x: 1842
+        y: 47
+      sets_step_scroll_height: 30
+      sets_container_scroll_max_length: 600
+      sets_confirm_button:
+        x: 1743
+        y: 1020
+      sets_container:
+        lt:
+          x: 38
+          y: 106
+        rb:
+          x: 1338
+          y: 969
+      marked:
+        x: 169
+        y: 398
+      locked_only:
+        x: 457
+        y: 398
+      not_locked:
+        x: 169
+        y: 470
+      max_level:
+        x: 169
+        y: 595
+      not_max_level:
+        x: 457
+        y: 595
+      equipped:
+        x: 169
+        y: 719
+      not_equipped:
+        x: 457
+        y: 719
+      sanctifying_elixir:
+        x: 169
+        y: 844
+
+    sort_by_time_show_switch:
+      x: 1251
+      y: 137
+
+    page_rows: 4
+    page_cols: 8
+
+    small_card_container_center:
+      x: 689
+      y: 567
+
+    detail_card_center:
+      x: 1551
+      y: 539
+
+    small_card_row_gap_check:
+      lt:
+        x: 175
+        y: 164
+      rb:
+        x: 183
+        y: 165
+    small_card_start:
+      x: 179
+      y: 254
+    small_card_last_page_offset: 23
+    small_card_horizontal_interval: 146
+    small_card_vertical_interval: 175
+
+    sanctifying_elixir:
+      lt:
+        x: 1354
+        y: 403
+      rb:
+        x: 1508
+        y: 446
+    sanctifying_elixir_height: 38
+    mark_check:
+      lt:
+        x: 1760
+        y: 407
+      rb:
+        x: 1790
+        y: 437
+    star_start:
+      x: 1350
+      y: 373
+    star_horizontal_interval: 33
+    name:
+      lt:
+        x: 1308
+        y: 120
+      rb:
+        x: 1800
+        y: 178
+    slot:
+      lt:
+        x: 1326
+        y: 182
+      rb:
+        x: 1416
+        y: 223
+    main_stat_name:
+      lt:
+        x: 1326
+        y: 264
+      rb:
+        x: 1499
+        y: 302
+    main_stat_value:
+      lt:
+        x: 1326
+        y: 293
+      rb:
+        x: 1499
+        y: 350
+    level:
+      lt:
+        x: 1329
+        y: 419
+      rb:
+        x: 1403
+        y: 466
+    mark:
+      x: 1741
+      y: 430
+    lock:
+      x: 1684
+      y: 430
+    sub_stat_start:
+      lt:
+        x: 1351
+        y: 465
+      rb:
+        x: 1800
+        y: 520
+    sub_stat_height: 39
+    set_name_x: 1351
+    set_name_width: 216
+    set_name_height: 55
+    equipped:
+      lt:
+        x: 1380
+        y: 901
+      rb:
+        x: 1800
+        y: 960
+
+    destroy:
+      destroy_button:
+        x: 76
+        y: 1018
+      back_button:
+        x: 76
+        y: 1018
+
+      quickly_insert_button:
+        x: 166
+        y: 1018
+      one_star_artifact_button:
+        x: 58
+        y: 148
+      artifact_button_vertical_interval: 77
+      quickly_insert_confirm_button:
+        x: 334
+        y: 1018
+
+      selected_artifact_count_check:
+        lt:
+          x: 1382
+          y: 1008
+        rb:
+          x: 1551
+          y: 1030
+      ready_to_destroy_button:
+        x: 1738
+        y: 1018
+      confirm_destroy_button:
+        x: 1172
+        y: 829
+      click_blank_to_continue:
+        x: 959
+        y: 750
+
+    decompose:
+      decompose_button:
+        x: 658
+        y: 1018
+      back_button:
+        x: 1842
+        y: 47
+
+      quickly_select_button:
+        x: 304
+        y: 1018
+      one_star_artifact_button:
+        x: 58
+        y: 148
+      artifact_button_vertical_interval: 77
+      quickly_select_confirm_button:
+        x: 334
+        y: 1018
+
+      selected_artifact_count_check:
+        lt:
+          x: 149
+          y: 899
+        rb:
+          x: 243
+          y: 924
+      ready_to_decompose_button:
+        x: 1738
+        y: 1018
+      confirm_decompose_button:
+        x: 1177
+        y: 757
+      click_blank_to_continue:
+        x: 959
+        y: 750
+
+  enhance_page:
+    detail_button:
+      x: 1692
+      y: 1017
+    enhance_menu_button:
+      x: 120
+      y: 220
+    add_material_button:
+      x: 1763
+      y: 766
+    enhance_button:
+      x: 1741
+      y: 1020
+    back_button:
+      x: 1843
+      y: 46
+    setting_button:
+      x: 1608
+      y: 768
+    tier_enhance_switch:
+      x: 1251
+      y: 390
+    allow_add_five_star_material_switch:
+      x: 1251
+      y: 458
+    close_setting_button:
+      x: 1346
+      y: 300
+    enhance_material_check:
+      lt:
+        x: 1205
+        y: 843
+      rb:
+        x: 1248
+        y: 886
+
+    level:
+      lt:
+        x: 1160
+        y: 121
+      rb:
+        x: 1261
+        y: 181
+    main_stat_name:
+      lt:
+        x: 1186
+        y: 228
+      rb:
+        x: 1437
+        y: 284
+    main_stat_value:
+      lt:
+        x: 1742
+        y: 228
+      rb:
+        x: 1885
+        y: 284
+    sub_stat_name_start:
+      lt:
+        x: 1186
+        y: 304
+      rb:
+        x: 1437
+        y: 355
+    sub_stat_value_start:
+      lt:
+        x: 1742
+        y: 304
+      rb:
+        x: 1885
+        y: 355
+    sub_stat_height: 53
+
+  character_page:
+    element_text:
+      lt:
+        x: 134
+        y: 27
+      rb:
+        x: 226
+        y: 68
+
+    previous_character_button:
+      x: 76
+      y: 539
+    next_character_button:
+      x: 1848
+      y: 539
+    artifact_detail_button:
+      x: 179
+      y: 291
+    character_name:
+      lt:
+        x: 233
+        y: 24
+      rb:
+        x: 403
+        y: 70
+
+    fast_equip_button:
+      x: 1542
+      y: 1009
+    artifact_switch_button:
+      x: 1720
+      y: 1009
+    fast_equip_equipped_button:
+      lt:
+        x: 1667
+        y: 995
+      rb:
+        x: 1780
+        y: 1042
+    fast_equip_recommend_button:
+      x: 101
+      y: 226
+    fast_equip_plan_one_button:
+      lt:
+        x: 64
+        y: 372
+      rb:
+        x: 162
+        y: 420
+    fast_equip_plan_two_button:
+      lt:
+        x: 64
+        y: 497
+      rb:
+        x: 162
+        y: 548
+
+    artifact_remove_button:
+      x: 1558
+      y: 1007
+
+    artifact_not_equipped:
+      x: 285
+      y: 294
+    artifact_not_equipped_count:
+      lt:
+        x: 273
+        y: 274
+      rb:
+        x: 312
+        y: 313
+
+    artifact_button_badge_group_start:
+      x: 114
+      y: 18
+    artifact_button_badge_group_interval: 110
+
+    back_button:
+      x: 1844
+      y: 45

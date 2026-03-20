@@ -1,0 +1,47 @@
+# Visual Studio Code 安装插件 `redhat.vscode-yaml` 即可验证、提示当前文件是否符合要求。
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ftnfurina/giaa/v0.13.0/schema/script.schema.json
+
+name: 锁定或标记5星满级带双爆的圣遗物
+
+description: |-
+  锁定条件: 副词条双爆分大于等于30, 理之冠双爆分大于等于85
+  标记条件: 副词条双爆分大于等于40, 理之冠双爆分大于等于95
+
+mode: 处理所有圣遗物
+
+stop_star: 4
+
+filter:
+  level_state: 满级
+
+rules:
+  - description: 重置标记或锁定状态
+    expression: |-
+      星级 == 5
+    action: 取消标记
+
+  - description: 锁定5星双爆得分大于等于30的圣遗物
+    expression: |-
+      星级 == 5
+      && 暴击率 * 2 + 暴击伤害 >= 30
+    action: 仅锁定
+
+  - description: 标记5星双爆得分大于等于40的圣遗物
+    expression: |-
+      星级 == 5
+      && 暴击率 * 2 + 暴击伤害 >= 40
+    action: 标记
+
+  - description: 锁定5星理之冠双爆得分大于等于85的圣遗物
+    expression: |-
+      理之冠
+      && 星级 == 5
+      && ((主:暴击伤害 + 暴击率 * 2) >= 85 || (主:暴击率 * 2 + 暴击伤害) >= 85)
+    action: 仅锁定
+
+  - description: 标记5星理之冠双爆得分大于等于95的圣遗物
+    expression: |-
+      理之冠
+      && 星级 == 5
+      && ((主:暴击伤害 + 暴击率 * 2) >= 95 || (主:暴击率 * 2 + 暴击伤害) >= 95)
+    action: 标记
