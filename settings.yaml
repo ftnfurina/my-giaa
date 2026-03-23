@@ -1,15 +1,20 @@
 window_titles:
 - 原神
 - Genshin Impact
-scripts_folder: scripts
-log_level: Debug
-log_file: log/giaa.log
-operation_delay: 120
-view_update_delay: 1100
-ocr_save_image: true
-ocr_image_folder: ocr/
-ocr_clean_folder: true
+script_folders:
+- folder: scripts/common/
+  name: 常用脚本
+- folder: scripts/careful/
+  name: 慎用脚本
+log:
+  level: Debug
+  file: log/giaa.log
+delay:
+  operation: 120
+  view_update: 1100
+ocr:
+  save_image: true
+  image_folder: ocr/
+  clean_folder: true
 theme: Moonfly
-pin_scripts:
-- '3559375721890411721'
-- '2539238950224970885'
+pin_scripts: []

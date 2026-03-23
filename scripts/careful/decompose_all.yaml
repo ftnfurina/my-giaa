@@ -1,0 +1,14 @@
+# Visual Studio Code 安装插件 `redhat.vscode-yaml` 即可验证、提示当前文件是否符合要求。
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ftnfurina/giaa/v0.14.1/schema/script.schema.json
+
+name: 分解所有低星圣遗物
+
+description: 分解所有低星圣遗物
+
+mode: 分解圣遗物
+
+decompose_stars:
+  - 1
+  - 2
+  - 3
+  - 4

@@ -1,0 +1,15 @@
+# Visual Studio Code 安装插件 `redhat.vscode-yaml` 即可验证、提示当前文件是否符合要求。
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ftnfurina/giaa/v0.14.1/schema/script.schema.json
+
+name: 强化圣遗物到最大等级
+
+description: 按照圣遗物的星级, 强化到最大等级
+
+mode: 强化当前圣遗物
+
+expression: |-
+  (星级 == 1 && 等级 == 4)
+  || (星级 == 2 && 等级 == 4)
+  || (星级 == 3 && 等级 == 12)
+  || (星级 == 4 && 等级 == 16)
+  || (星级 == 5 && 等级 == 20)

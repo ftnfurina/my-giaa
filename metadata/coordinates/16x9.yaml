@@ -1,5 +1,5 @@
 # Visual Studio Code 安装插件 `redhat.vscode-yaml` 即可验证、提示当前文件是否符合要求。
-# yaml-language-server: $schema=https://raw.githubusercontent.com/ftnfurina/giaa/v0.13.0/schema/coordinate.schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ftnfurina/giaa/v0.14.1/schema/coordinate.schema.json
 
 resolution:
   height: 1080
@@ -137,14 +137,14 @@ data:
       rb:
         x: 1416
         y: 223
-    main_stat_name:
+    main_affix_name:
       lt:
         x: 1326
         y: 264
       rb:
         x: 1499
         y: 302
-    main_stat_value:
+    main_affix_value:
       lt:
         x: 1326
         y: 293
@@ -164,14 +164,14 @@ data:
     lock:
       x: 1684
       y: 430
-    sub_stat_start:
+    sub_affix_start:
       lt:
         x: 1351
         y: 465
       rb:
         x: 1800
         y: 520
-    sub_stat_height: 39
+    sub_affix_height: 39
     set_name_x: 1351
     set_name_width: 216
     set_name_height: 55
@@ -298,35 +298,35 @@ data:
       rb:
         x: 1261
         y: 181
-    main_stat_name:
+    main_affix_name:
       lt:
         x: 1186
         y: 228
       rb:
         x: 1437
         y: 284
-    main_stat_value:
+    main_affix_value:
       lt:
         x: 1742
         y: 228
       rb:
         x: 1885
         y: 284
-    sub_stat_name_start:
+    sub_affix_name_start:
       lt:
         x: 1186
         y: 304
       rb:
         x: 1437
         y: 355
-    sub_stat_value_start:
+    sub_affix_value_start:
       lt:
         x: 1742
         y: 304
       rb:
         x: 1885
         y: 355
-    sub_stat_height: 53
+    sub_affix_height: 53
 
   character_page:
     element_text:
@@ -384,6 +384,13 @@ data:
       rb:
         x: 162
         y: 548
+    fast_equip_no_suitable_artifact:
+      lt:
+        x: 890
+        y: 391
+      rb:
+        x: 1208
+        y: 437
 
     artifact_remove_button:
       x: 1558
