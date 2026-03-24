@@ -1,0 +1,25 @@
+# Visual Studio Code 安装插件 `redhat.vscode-yaml` 即可验证、提示当前文件是否符合要求。
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ftnfurina/giaa/v0.15.0/schema/script.schema.json
+
+name: 编辑所有角色快速装备方案
+
+description: 编辑所有角色快速装备方案
+
+mode: 编辑快速装备方案
+
+overwrite: 启用
+
+characters:
+  - name: 茜特菈莉
+    plan_one:
+      sets:
+        - 教官
+      main_affix:
+        sands: 元素精通
+        goblet: 元素精通
+        circlet: 元素精通
+      priority_minor_affixes:
+        - 元素充能效率
+        - 元素精通
+      other_option: 仅未装备
+

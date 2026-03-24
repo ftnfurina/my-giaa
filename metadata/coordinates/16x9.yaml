@@ -1,5 +1,5 @@
 # Visual Studio Code 安装插件 `redhat.vscode-yaml` 即可验证、提示当前文件是否符合要求。
-# yaml-language-server: $schema=https://raw.githubusercontent.com/ftnfurina/giaa/v0.14.1/schema/coordinate.schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ftnfurina/giaa/v0.15.0/schema/coordinate.schema.json
 
 resolution:
   height: 1080
@@ -38,18 +38,23 @@ data:
       sets_close_button:
         x: 1842
         y: 47
-      sets_step_scroll_height: 30
-      sets_container_scroll_max_length: 600
+      sets_step_scroll_height: 40
       sets_confirm_button:
         x: 1743
         y: 1020
-      sets_container:
-        lt:
-          x: 38
-          y: 106
-        rb:
-          x: 1338
-          y: 969
+      sets_containers:
+        - lt:
+            x: 149
+            y: 121
+          rb:
+            x: 426
+            y: 937
+        - lt:
+            x: 797
+            y: 121
+          rb:
+            x: 1074
+            y: 937
       marked:
         x: 169
         y: 398
@@ -354,43 +359,109 @@ data:
         x: 403
         y: 70
 
-    fast_equip_button:
-      x: 1542
-      y: 1009
+    fast_equip:
+      fast_equip_button:
+        x: 1542
+        y: 1009
+      update_config_button:
+        x: 1775
+        y: 138
+      plan_clear_config_button:
+        x: 596
+        y: 1023
+      plan_sands_button:
+        x: 476
+        y: 193
+      plan_goblet_button:
+        x: 959
+        y: 193
+      plan_circlet_button:
+        x: 1441
+        y: 193
+      plan_main_affix_container:
+        lt:
+          x: 71
+          y: 196
+        rb:
+          x: 708
+          y: 930
+      plan_affix_confirm_button:
+        x: 391
+        y: 1021
+      plan_sets_button:
+        x: 476
+        y: 313
+      plan_sets_containers:
+        - lt:
+            x: 149
+            y: 121
+          rb:
+            x: 426
+            y: 937
+        - lt:
+            x: 797
+            y: 121
+          rb:
+            x: 1074
+            y: 937
+      plan_sets_step_scroll_height: 40
+      plan_sets_confirm_button:
+        x: 1743
+        y: 1020
+      plan_priority_minor_affixes_button:
+        x: 476
+        y: 494
+      plan_secondary_minor_affixes_button:
+        x: 476
+        y: 605
+      plan_minor_affixes_container:
+        lt:
+          x: 71
+          y: 131
+        rb:
+          x: 735
+          y: 933
+      plan_not_equipped_button:
+        x: 476
+        y: 750
+      plan_save_button:
+        x: 1344
+        y: 1020
+      equipped_button:
+        lt:
+          x: 1667
+          y: 995
+        rb:
+          x: 1780
+          y: 1042
+      recommend_button:
+        x: 101
+        y: 226
+      plan_one_button:
+        lt:
+          x: 64
+          y: 372
+        rb:
+          x: 162
+          y: 420
+      plan_two_button:
+        lt:
+          x: 64
+          y: 497
+        rb:
+          x: 162
+          y: 548
+      no_suitable_artifact:
+        lt:
+          x: 890
+          y: 391
+        rb:
+          x: 1208
+          y: 437
+
     artifact_switch_button:
       x: 1720
       y: 1009
-    fast_equip_equipped_button:
-      lt:
-        x: 1667
-        y: 995
-      rb:
-        x: 1780
-        y: 1042
-    fast_equip_recommend_button:
-      x: 101
-      y: 226
-    fast_equip_plan_one_button:
-      lt:
-        x: 64
-        y: 372
-      rb:
-        x: 162
-        y: 420
-    fast_equip_plan_two_button:
-      lt:
-        x: 64
-        y: 497
-      rb:
-        x: 162
-        y: 548
-    fast_equip_no_suitable_artifact:
-      lt:
-        x: 890
-        y: 391
-      rb:
-        x: 1208
-        y: 437
 
     artifact_remove_button:
       x: 1558

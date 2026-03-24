@@ -1,5 +1,5 @@
 # Visual Studio Code 安装插件 `redhat.vscode-yaml` 即可验证、提示当前文件是否符合要求。
-# yaml-language-server: $schema=https://raw.githubusercontent.com/ftnfurina/giaa/v0.14.1/schema/script.schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ftnfurina/giaa/v0.15.0/schema/script.schema.json
 
 name: 通用强化配置
 
