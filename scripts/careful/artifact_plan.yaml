@@ -1,5 +1,5 @@
 # Visual Studio Code 安装插件 `redhat.vscode-yaml` 即可验证、提示当前文件是否符合要求。
-# yaml-language-server: $schema=https://raw.githubusercontent.com/ftnfurina/giaa/v0.15.0/schema/script.schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ftnfurina/giaa/v0.16.0/schema/script.schema.json
 
 name: 编辑所有角色快速装备方案
 
@@ -10,16 +10,419 @@ mode: 编辑快速装备方案
 overwrite: 启用
 
 characters:
+  - name: 莉奈娅
+    plan_one:
+      type: 推荐方案
+  - name: 丝柯克
+    plan_one:
+      type: 推荐方案
+  - name: 爱可菲
+    plan_one:
+      type: 推荐方案
+  - name: 塔利雅
+    plan_one:
+      type: 推荐方案
+  - name: 坎蒂丝
+    plan_one:
+      type: 推荐方案
+  - name: 夏洛蒂
+    plan_one:
+      type: 推荐方案
+  - name: 法尔伽
+    plan_one:
+      type: 推荐方案
+  - name: 菲林斯
+    plan_one:
+      type: 推荐方案
+  - name: 优菈
+    plan_one:
+      type: 推荐方案
+  - name: 莫娜
+    plan_one:
+      type: 自定义方案
+      sets:
+        - 千岩牢固
+      main_affix:
+        sands: 元素充能效率
+        goblet: 水元素伤害加成
+        circlet: 暴击率
+      priority_minor_affixes:
+        - 暴击率
+        - 暴击伤害
+      secondary_minor_affixes:
+        - 元素充能效率
+  - name: 阿贝多
+    plan_one:
+      type: 推荐方案
+  - name: 可莉
+    plan_one:
+      type: 推荐方案
+  - name: 迪卢克
+    plan_one:
+      type: 推荐方案
+  - name: 琴
+    plan_one:
+      type: 推荐方案
+  - name: 班尼特
+    plan_one:
+      type: 自定义方案
+      sets:
+        - 昔日宗室之仪
+      main_affix:
+        sands: 元素充能效率
+        goblet: 生命值百分比
+        circlet: 生命值百分比
+      priority_minor_affixes:
+        - 生命值百分比
+        - 元素充能效率
+  - name: 香菱
+    plan_one:
+      type: 推荐方案
+  - name: 砂糖
+    plan_one:
+      type: 推荐方案
+  - name: 兹白
+    plan_one:
+      type: 推荐方案
+  - name: 那维莱特
+    plan_one:
+      type: 推荐方案
+  - name: 叶洛亚
+    plan_one:
+      type: 推荐方案
+  - name: 爱诺
+    plan_one:
+      type: 推荐方案
+  - name: 五郎
+    plan_one:
+      type: 推荐方案
+  - name: 哥伦比娅
+    plan_one:
+      type: 推荐方案
+  - name: 伊涅芙
+    plan_one:
+      type: 推荐方案
+  - name: 伊法
+    plan_one:
+      type: 推荐方案
+  - name: 菲谢尔
+    plan_one:
+      type: 推荐方案
+  - name: 赛索斯
+    plan_one:
+      type: 推荐方案
+  - name: 杜林
+    plan_one:
+      type: 推荐方案
+  - name: 雅珂达
+    plan_one:
+      type: 推荐方案
+  - name: 奈芙尔
+    plan_one:
+      type: 推荐方案
+  - name: 奇偶·男性
+    plan_one:
+      type: 推荐方案
+  - name: 奇偶·女性
+    plan_one:
+      type: 推荐方案
+  - name: 芙宁娜
+    plan_one:
+      type: 推荐方案
+  - name: 菈乌玛
+    plan_one:
+      type: 推荐方案
+  - name: 纳西妲
+    plan_one:
+      type: 推荐方案
+  - name: 妮露
+    plan_one:
+      type: 推荐方案
+  - name: 艾尔海森
+    plan_one:
+      type: 推荐方案
+  - name: 赛诺
+    plan_one:
+      type: 推荐方案
+  - name: 流浪者
+    plan_one:
+      type: 推荐方案
+  - name: 提纳里
+    plan_one:
+      type: 推荐方案
+  - name: 迪希雅
+    plan_one:
+      type: 推荐方案
+  - name: 恰斯卡
+    plan_one:
+      type: 推荐方案
+  - name: 玛拉妮
+    plan_one:
+      type: 推荐方案
+  - name: 欧洛伦
+    plan_one:
+      type: 推荐方案
   - name: 茜特菈莉
     plan_one:
+      type: 自定义方案
       sets:
         - 教官
       main_affix:
-        sands: 元素精通
+        sands: 元素充能效率
         goblet: 元素精通
         circlet: 元素精通
       priority_minor_affixes:
         - 元素充能效率
         - 元素精通
-      other_option: 仅未装备
-
+  - name: 行秋
+    plan_one:
+      type: 推荐方案
+  - name: 玛薇卡
+    plan_one:
+      type: 推荐方案
+  - name: 艾梅莉埃
+    plan_one:
+      type: 推荐方案
+  - name: 伊安珊
+    plan_one:
+      type: 推荐方案
+  - name: 瑶瑶
+    plan_one:
+      type: 推荐方案
+  - name: 申鹤
+    plan_one:
+      type: 推荐方案
+  - name: 迪奥娜
+    plan_one:
+      type: 推荐方案
+  - name: 基尼奇
+    plan_one:
+      type: 推荐方案
+  - name: 雷电将军
+    plan_one:
+      type: 推荐方案
+  - name: 神里绫华
+    plan_one:
+      type: 推荐方案
+  - name: 神里绫人
+    plan_one:
+      type: 自定义方案
+      sets:
+        - 角斗士的终幕礼
+      main_affix:
+        sands: 攻击力百分比
+        goblet: 水元素伤害加成
+        circlet: 暴击伤害
+      priority_minor_affixes:
+        - 暴击率
+        - 暴击伤害
+      secondary_minor_affixes:
+        - 攻击力百分比
+  - name: 珐露珊
+    plan_one:
+      type: 推荐方案
+  - name: 千织
+    plan_one:
+      type: 推荐方案
+  - name: 八重神子
+    plan_one:
+      type: 推荐方案
+  - name: 荒泷一斗
+    plan_one:
+      type: 推荐方案
+  - name: 宵宫
+    plan_one:
+      type: 推荐方案
+  - name: 琳妮特
+    plan_one:
+      type: 推荐方案
+  - name: 九条裟罗
+    plan_one:
+      type: 推荐方案
+  - name: 托马
+    plan_one:
+      type: 推荐方案
+  - name: 娜维娅
+    plan_one:
+      type: 推荐方案
+  - name: 莱依拉
+    plan_one:
+      type: 推荐方案
+  - name: 希诺宁
+    plan_one:
+      type: 推荐方案
+  - name: 温迪
+    plan_one:
+      type: 推荐方案
+  - name: 烟绯
+    plan_one:
+      type: 推荐方案
+  - name: 闲云
+    plan_one:
+      type: 推荐方案
+  - name: 北斗
+    plan_one:
+      type: 推荐方案
+  - name: 瓦雷莎
+    plan_one:
+      type: 推荐方案
+  - name: 夏沃蕾
+    plan_one:
+      type: 推荐方案
+  - name: 嘉明
+    plan_one:
+      type: 推荐方案
+  - name: 希格雯
+    plan_one:
+      type: 推荐方案
+  - name: 莱欧斯利
+    plan_one:
+      type: 推荐方案
+  - name: 蓝砚
+    plan_one:
+      type: 推荐方案
+  - name: 梦见月瑞希
+    plan_one:
+      type: 推荐方案
+  - name: 阿蕾奇诺
+    plan_one:
+      type: 推荐方案
+  - name: 克洛琳德
+    plan_one:
+      type: 推荐方案
+  - name: 白术
+    plan_one:
+      type: 推荐方案
+  - name: 刻晴
+    plan_one:
+      type: 推荐方案
+  - name: 甘雨
+    plan_one:
+      type: 自定义方案
+      sets:
+        - 冰风迷途的勇士
+      main_affix:
+        sands: 攻击力百分比
+        goblet: 冰元素伤害加成
+        circlet: 暴击伤害
+      priority_minor_affixes:
+        - 暴击率
+        - 暴击伤害
+      secondary_minor_affixes:
+        - 攻击力百分比
+  - name: 七七
+    plan_one:
+      type: 推荐方案
+  - name: 魈
+    plan_one:
+      type: 自定义方案
+      sets:
+        - 长夜之誓
+        - 角斗士的终幕礼
+      main_affix:
+        sands: 攻击力百分比
+        goblet: 风元素伤害加成
+        circlet: 暴击伤害
+      priority_minor_affixes:
+        - 暴击率
+        - 暴击伤害
+      secondary_minor_affixes:
+        - 攻击力百分比
+  - name: 达达利亚
+    plan_one:
+      type: 推荐方案
+  - name: 钟离
+    plan_one:
+      type: 推荐方案
+  - name: 胡桃
+    plan_one:
+      type: 推荐方案
+  - name: 卡齐娜
+    plan_one:
+      type: 推荐方案
+  - name: 枫原万叶
+    plan_one:
+      type: 推荐方案
+  - name: 夜兰
+    plan_one:
+      type: 自定义方案
+      sets:
+        - 绝缘之旗印
+      main_affix:
+        sands: 元素充能效率
+        goblet: 水元素伤害加成
+        circlet: 暴击伤害
+      priority_minor_affixes:
+        - 暴击率
+        - 暴击伤害
+      secondary_minor_affixes:
+        - 生命值百分比
+  - name: 林尼
+    plan_one:
+      type: 推荐方案
+  - name: 珊瑚宫心海
+    plan_one:
+      type: 推荐方案
+  - name: 诺艾尔
+    plan_one:
+      type: 推荐方案
+  - name: 菲米尼
+    plan_one:
+      type: 推荐方案
+  - name: 罗莎莉亚
+    plan_one:
+      type: 推荐方案
+  - name: 绮良良
+    plan_one:
+      type: 推荐方案
+  - name: 卡维
+    plan_one:
+      type: 推荐方案
+  - name: 米卡
+    plan_one:
+      type: 推荐方案
+  - name: 多莉
+    plan_one:
+      type: 推荐方案
+  - name: 柯莱
+    plan_one:
+      type: 推荐方案
+  - name: 鹿野院平藏
+    plan_one:
+      type: 推荐方案
+  - name: 云堇
+    plan_one:
+      type: 推荐方案
+  - name: 凝光
+    plan_one:
+      type: 推荐方案
+  - name: 久岐忍
+    plan_one:
+      type: 推荐方案
+  - name: 早柚
+    plan_one:
+      type: 推荐方案
+  - name: 重云
+    plan_one:
+      type: 推荐方案
+  - name: 丽莎
+    plan_one:
+      type: 推荐方案
+  - name: 辛焱
+    plan_one:
+      type: 推荐方案
+  - name: 雷泽
+    plan_one:
+      type: 推荐方案
+  - name: 凯亚
+    plan_one:
+      type: 推荐方案
+  - name: 芭芭拉
+    plan_one:
+      type: 推荐方案
+  - name: 安柏
+    plan_one:
+      type: 推荐方案
+  - name: 埃洛伊
+    plan_one:
+      type: 推荐方案

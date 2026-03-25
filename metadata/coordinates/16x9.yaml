@@ -1,5 +1,5 @@
 # Visual Studio Code 安装插件 `redhat.vscode-yaml` 即可验证、提示当前文件是否符合要求。
-# yaml-language-server: $schema=https://raw.githubusercontent.com/ftnfurina/giaa/v0.15.0/schema/coordinate.schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ftnfurina/giaa/v0.16.0/schema/coordinate.schema.json
 
 resolution:
   height: 1080
@@ -177,7 +177,7 @@ data:
         x: 1800
         y: 520
     sub_affix_height: 39
-    set_name_x: 1351
+    set_name_x: 1327
     set_name_width: 216
     set_name_height: 55
     equipped:
@@ -366,6 +366,12 @@ data:
       update_config_button:
         x: 1775
         y: 138
+      plan_delete_button:
+        x: 1099
+        y: 1020
+      plan_confirm_delete_button:
+        x: 1075
+        y: 756
       plan_clear_config_button:
         x: 596
         y: 1023
@@ -424,6 +430,9 @@ data:
       plan_not_equipped_button:
         x: 476
         y: 750
+      plan_recommend_affix_button:
+        x: 966
+        y: 1018
       plan_save_button:
         x: 1344
         y: 1020
